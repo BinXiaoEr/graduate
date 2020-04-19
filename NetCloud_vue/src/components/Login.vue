@@ -74,7 +74,7 @@ export default {
         service.post("/user/login/", rq_data).then(data => {
           //console.log(data) data 是后台返回的json数据
           if (data.state == 1) {
-            console.log(data.message);
+            // console.log(data.message);
             window.sessionStorage.setItem("token", JSON.stringify(data.token)); // 添加token 字段 
             this.$message({
               // this.$message 是自定义的全局的一个组件

@@ -4,7 +4,7 @@ import axios from 'axios'
 var instance = axios.create({
 
   headers: { 'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8' },
-  baseURL: 'http://127.0.0.1:8888/'
+  baseURL: 'http://127.0.0.1:9999/'
 
 });
 //  这一步直接提取了 返回的字段数据 不用再具体的请求中处理

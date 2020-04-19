@@ -97,7 +97,7 @@ export default {
 
     //用户状态改变
     userStateChanged(userinfo) {
-      console.log(userinfo)
+      // console.log(userinfo)
     }
   }
 };
