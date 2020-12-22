@@ -19,7 +19,7 @@
     "extract-text-webpack-plugin": "^3.0.2",
     "friendly-errors-webpack-plugin": "^1.7.0",
     "hls.js": "^0.13.2",
-    "node-notifier": "^7.0.0",
+    "node-notifier": "^8.0.1",
     "qs": "^6.9.3",
     "vue": "^2.6.11",
     "vue-aplayer": "^1.6.1",
